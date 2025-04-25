@@ -1,0 +1,23 @@
+select {
+	appearance: base-select;
+	padding: var(--rem--2) var(--rem--5);
+	border: var(--border--1);
+	border-radius: var(--rem--2);
+	background-color: var(--background-color--normal);
+
+	&:hover {
+		filter: brightness(0.9);
+	}
+	&:active {
+		filter: brightness(0.8);
+	}
+
+	&.menu {
+		border-color: transparent;
+		background-color: var(--background-color--menu);
+
+		&::picker-icon {
+			display: none;
+		}
+	}
+}

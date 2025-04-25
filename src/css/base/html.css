@@ -1,4 +1,8 @@
 html {
+	--rem--1: calc(1rem / 14);
+	--rem--2: calc(2rem / 14);
+	--rem--5: calc(5rem / 14);
+
 	--gray--1: oklch(0.9 0 0);
 	--gray--2: oklch(0.8 0 0);
 	--gray--3: oklch(0.7 0 0);
@@ -11,7 +15,7 @@ html {
 	--color--normal: black;
 
 	--border--1: 1px solid var(--gray--2);
-	--border--2: 2px solid var(--gray--3);
+	--border--2: 3px solid var(--gray--3);
 
 	width: 100%;
 	height: 100%;

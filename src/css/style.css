@@ -1,5 +1,6 @@
 @import "./base/all.css";
 @import "./base/html.css";
 @import "./base/body.css";
+@import "./base/select.css";
 
 @import "./id/app.css";

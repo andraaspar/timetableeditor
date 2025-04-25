@@ -22,8 +22,8 @@
 		<option value="teachers" label="Teachers"></option>
 	</select>
 	{#if _split}
-		<select bind:value={split}>
-			<option value="" label="Split"></option>
+		<select bind:value={split} class="menu">
+			<option value="" label="Split" hidden></option>
 			<option value="h" label="Horizontally"></option>
 			<option value="v" label="Vertically"></option>
 		</select>
@@ -41,9 +41,11 @@
 	.view-menu {
 		flex: 0 0 auto;
 		display: flex;
-		background-color: var(--gray--1);
+		background-color: var(--background-color--menu);
 		border-bottom: var(--border--1);
 		overflow: hidden;
+		padding: var(--rem--1);
+		gap: var(--rem--1);
 	}
 	.view-content {
 		flex: 1 0 0;
